@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | EYuga</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- NAVBAR VERTICAL -->
+    <div id="mobile-navbar">
+      <div id="wrapper">
+        <div class="overlay"></div>
+         
+             <!-- Sidebar -->
+         <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+          <ul class="nav sidebar-nav">
+            <div class="sidebar-header">
+            <div class="sidebar-brand">
+              <a href="#"><img style="height: 50px;    padding-left: 24px;float: left;" src="./images/eyugalogo.png" alt=""></a>
+            </div></div>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about/index.html">About</a></li>
+            <li><a href="./clients/index.html">Clients</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+           </ul>
+       </nav>
+             <!-- /#sidebar-wrapper -->
+     
+             <!-- Page Content -->
+             <div id="page-content-wrapper">
+                 <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                     <span class="hamb-top"></span>
+                     <span class="hamb-middle"></span>
+                     <span class="hamb-bottom"></span>
+                 </button>
+             </div>
+             <!-- /#page-content-wrapper -->
+     
+      </div>
+    </div>
+
+       <!-- vertical navbar end -->
+
+
+       <!-- horizontal navbar  -->
+
+  <div class="wrapper" id="desktop-navbar">
+       <nav>
+          <div class="menu-icon">
+             <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <img style="height: 50px;" src="./images/eyugalogo.png" alt="">
+          </div>
+          <div class="menu">
+             <ul>
+                <li><a class="effect-shine" href="#">Home</a></li>
+                <li><a class="effect-shine" href="./about/index.html">About Us</a></li>
+                <li><a class="effect-shine" href="./clients/index.html">Clients</a></li>
+                <li><a class="effect-shine" href="#contact-form">Contact</a></li>
+             </ul>
+          </div>
+       </nav>
+  </div>
+   <!-- horizontal navbar end  -->
+
+
+
+
+  <!-- old slideshow of inator site -->
+<div id="wrapper">
+  <section class="slideshow" id="js-header">
+
+    <div class="slideshow__slide js-slider-home-slide is-current" data-slide="1">
+      <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+        <div class="slideshow__slide-background-load-wrap background-absolute">
+          <div class="slideshow__slide-background-load background-absolute">
+            <div class="slideshow__slide-background-wrap background-absolute">
+              <div class="slideshow__slide-background background-absolute">
+                <div class="slideshow__slide-image-wrap background-absolute">
+                  <div class="slideshow__slide-image background-absolute" style="background-image: url('https://image.ibb.co/gzOBup/showcase.jpg');"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow__slide-caption">
+        <div class="slideshow__slide-caption-text">
+          <div id="title1" class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+            <h1  class="slideshow__slide-caption-title">Changing the way we work, function, live.<br> We are Ready to make a Better Tomorrow. Are You?
+            </h1>
+            <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#contact-form">
+              <span class="slideshow__slide-caption-subtitle-label">Let's Work on a Project</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slideshow__slide js-slider-home-slide is-next" data-slide="2">
+      <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+        <div class="slideshow__slide-background-load-wrap background-absolute">
+          <div class="slideshow__slide-background-load background-absolute">
+            <div class="slideshow__slide-background-wrap background-absolute">
+              <div class="slideshow__slide-background background-absolute">
+                <div class="slideshow__slide-image-wrap background-absolute">
+                  <div class="slideshow__slide-image background-absolute" style="background-image: url('https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow__slide-caption">
+        <div class="slideshow__slide-caption-text">
+          <div id="title2" class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+            <h1 class="slideshow__slide-caption-title">Working to expand your business one pixel at a time.</h1>
+            <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#contact-form">
+              <span class="slideshow__slide-caption-subtitle-label">Contact Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slideshow__slide js-slider-home-slide is-prev" data-slide="3">
+      <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+        <div class="slideshow__slide-background-load-wrap background-absolute">
+          <div class="slideshow__slide-background-load background-absolute">
+            <div class="slideshow__slide-background-wrap background-absolute">
+              <div class="slideshow__slide-background background-absolute">
+                <div class="slideshow__slide-image-wrap background-absolute">
+                  <div class="slideshow__slide-image background-absolute" style="background-image: url('https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow__slide-caption">
+        <div class="slideshow__slide-caption-text">
+          <div id="title3" class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+            <h1 class="slideshow__slide-caption-title">The goal isn’t to build a website.<br> The goal is to build your business.</h1>
+            <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#contact-form">
+              <span class="slideshow__slide-caption-subtitle-label">Contact Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-header-home_footer">
+      <div class="o-container">
+        <div class="c-header-home_controls -nomobile o-button-group">
+          <div class="js-parallax is-inview" data-speed="1" data-position="top" data-target="#js-header">
+            <button class="o-button -white -square -left js-slider-home-button js-slider-home-prev" type="button">
+              <span class="o-button_label">
+                <svg class="o-button_icon" role="img">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-prev"></use>
+                </svg>
+              </span>
+            </button>
+            <button class="o-button -white -square js-slider-home-button js-slider-home-next" type="button">
+              <span class="o-button_label">
+                <svg class="o-button_icon" role="img">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-next"></use>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+<div>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol viewBox="0 0 18 18" id="arrow-next">
+        <path id="arrow-next-arrow.svg" d="M12.6,9L4,17.3L4.7,18l8.5-8.3l0,0L14,9l0,0l-0.7-0.7l0,0L4.7,0L4,0.7L12.6,9z" />
+      </symbol>
+      <symbol viewBox="0 0 18 18" id="arrow-prev">
+        <path id="arrow-prev-arrow.svg" d="M14,0.7L13.3,0L4.7,8.3l0,0L4,9l0,0l0.7,0.7l0,0l8.5,8.3l0.7-0.7L5.4,9L14,0.7z" />
+      </symbol>
+    </svg>  
+
+<!-- end of slideshow -->
+
+
+
+<!-- EYUGAS SERVICES -->
+<div id="services">
+
+<hgroup>
+  <h1>Our Services</h1>
+  <hr class="line-break">
+</hgroup>
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div id="main-service" class="col-md-6">
+            Infrastructure <br> Services
+          </div>
+          <div id="main-service-para" class="col-md-6 extramargin">
+            <div>
+              <div class="service-points">Infrastructure Design and Consultancy</div> 
+              Right infrastructure design will lead to a reliable, cost effective and scalable IT infrastructure. Our consultancy will help you successfully plan, Design and implement most appropriate infrastructure for your need.
+            <div class="service-points">  Infrastructure Management and Support</div> 
+              Our experts will unload the burden of your IT infrastructure management. We will provide maintenance services for your software, IT infrastructure and cloud platforms to keep your business running 24/7. 
+            <div class="service-points"> Cloud and DevOps Services</div> 
+              Build a flexible, reliable and scalable cloud platform with our cloud experts. We will recommend a most appropriate solution that suits your business and budget
+              <div class="service-points">Security and compliance</div> 
+              Keep your organization protected with our infrastructure security and compliance services. Our expert team will help you stay secure and compliant
+            </div>
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/984/984474.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/1269/1269701.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2906/2906274.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2758/2758678.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div id="main-service" class="col-md-6">
+            Software <br>Developement
+          </div>
+          <div id="main-service-para" class="col-md-6">
+            <p>As the use of mobile and web apps rise, your business’s digital presence becomes even more important. The biggest challenge facing organizations is how they can keep up in the digital world.</p>
+            
+            <p> The best way is to continuously develop up-to-date software that allows your organization to maintain an impactful digital presence. We develop all kinds of software as per your requirement. We develop Web, iOS or Android customized applications as per clients need.
+          </p>
+           <img class="service-img1" src="https://www.nicepng.com/png/detail/242-2428861_pwa-progressive-web-app-logo-pwa-progressive-web.png" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/1069/1069893.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2037/2037075.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/921/921594.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div id="main-service" class="col-md-6">
+           Cyber  <br> Security
+          </div>
+          <div id="main-service-para" class="col-md-6">
+            <div class="service-points">Cyber Risk Strategy</div> 
+            <div>We assist in creating an end-to-end cyber security strategy which aligns with your business goals</div> 
+            <div class="service-points">Vigilance</div> 
+            <div>We help deploy and manage cyber security solutions that help proactively detect and remediate cyber threats to your business</div> 
+            <div class="service-points">Privacy</div> 
+            <div>We assist in securing assets that store critical and sensitive information in your IT landscape</div> 
+            <div class="service-points">Response</div>  
+            <div>We assist in rapidly containing, responding and remediating cyber incidents</div> 
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2092/2092757.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2452/2452714.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/3043/3043486.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/1473/1473805.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div id="main-service" class="col-md-6">
+           Augmented reality<br>Virtual reality
+          </div>
+          <div id="main-service-para" class="col-md-6">
+            <div class="service-points">Cyber Risk Strategy</div> 
+            <div>We assist in creating an end-to-end cyber security strategy which aligns with your business goals</div> 
+            <div class="service-points">Vigilance</div> 
+            <div>We help deploy and manage cyber security solutions that help proactively detect and remediate cyber threats to your business</div> 
+            <div class="service-points">Privacy</div> 
+            <div>We assist in securing assets that store critical and sensitive information in your IT landscape</div> 
+            <div class="service-points">Response</div>  
+            <div>We assist in rapidly containing, responding and remediating cyber incidents</div> 
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2092/2092757.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/2452/2452714.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/3043/3043486.svg" alt="">
+           <img class="service-img1" src="https://www.flaticon.com/svg/static/icons/svg/1473/1473805.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+<!-- Hero Unit -->
+<section class="hero-unit">
+
+  <div class="row">
+    <div class="col-md-12">
+        <h1>Other services we provide</h1>
+      <ul class="small-block-grid-2 medium-block-grid-3 flip-cards">
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="#">Infrastructure Services</a>
+            <i class="card-icon "><img src="https://www.flaticon.com/svg/static/icons/svg/1935/1935082.svg" alt="" class="card-img"></i>
+          </div>
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/1935/1935082.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="#">Infrastructure Services</a>
+              <p>Be it in-house, Cloud, DevOps, we support all aspects of Infrastructure right from Servers, Network, DB, Email solutions, Storage, Backup, DR for new installation, configuration and migration on Windows, and Linux platforms.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">Project Management</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2308/2308282.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2308/2308282.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">Project Management</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+        
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="#">Mobile App Development</a>
+            <i class="card-icon"><img class="card-img" src="https://www.flaticon.com/svg/static/icons/svg/1088/1088047.svg" alt=""></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img class="card-img" src="https://www.flaticon.com/svg/static/icons/svg/1088/1088047.svg" alt=""></i>
+            <div class="hub-info">
+              <a href="#">Application and Mobile App Development</a>
+              <p>We develop Web, iOS or Andriod customized applications as per your need. We have effectively delivered online delivery Apps with our dedicated team of Android and iOS developers.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">Machine Learning</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2103/2103449.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2103/2103449.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">Machine Learning</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">Artificial Intelligence</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2591/2591986.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2591/2591986.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">Artificial Intelligence</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">Data Security</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/1355/1355277.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/1355/1355277.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">Data Security</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="#">Web Development</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2282/2282188.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2282/2282188.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="#">Web Development</a>
+              <p>Static or Dynamic, with integrations with Cloud Providers or Hosting Services</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="#">Progressive Web Apps</a>
+            <i class=" card-icon"><img src="https://j2inet.files.wordpress.com/2018/12/siderealLarge.png?w=640" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://j2inet.files.wordpress.com/2018/12/siderealLarge.png?w=640" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="#">Progressive Web Apps</a>
+              <p>Modern and Web-First Mobile Applications for the Internet, with a Native-Like Experience</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="#">Data</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2857/2857413.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/2857/2857413.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="#">Big Data & Data Analytics </a>
+              <p>Our teams work together to bring a seamless crossplatform experience be it iOS,Web or Android</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">Augmented Reality</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/901/901016.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/901/901016.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">Augmented Reality</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">Virtual Reality</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/3208/3208604.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/3208/3208604.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">Virtual Reality</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+        <li ontouchstart="this.classList.toggle('hover');">
+          <div class="large button card-front">
+            <a href="">API Development</a>
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/603/603197.svg" alt="" class="card-img"></i>
+          </div>
+
+          <div class="panel card-back">
+            <i class="card-icon"><img src="https://www.flaticon.com/svg/static/icons/svg/603/603197.svg" alt="" class="card-img"></i>
+            <div class="hub-info">
+              <a href="">API Development</a>
+              <p> With our PMP and Prince2 certified, experienced and professional team members, we provide project management consultancy to ensure fruitful results for short-term or long-term projects.</p>
+            </div>
+            <small class="clear"></small>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+
+
+  </div>
+</section>
+</div>
+
+
+<!-- end of services -->
+
+
+<!-- CONTACT FORM -->
+<div id="contact-form">
+  <section id="hire">
+        <h1>Get in touch</h1>
+        <div id="form-subtitle">Please fill in the details below to contact us</div>
+        
+        <form>
+              <div class="field name-box">
+                    <input type="text" id="name" placeholder="Who Are You?"/>
+                    <label for="name">Name</label>
+                    <span class="ss-icon">check</span>
+              </div>
+    
+              <div class="field email-box">
+                    <input type="text" id="email" placeholder="name@email.com"/>
+                    <label for="email">Email</label>
+                    <span class="ss-icon">check</span>
+              </div>
+    
+              <div class="field msg-box">
+                    <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+                    <label for="msg">Msg</label>
+                    <span class="ss-icon">check</span>
+              </div>
+    
+              <input class="button" type="submit" value="Send" />
+      </form>
+    </section>
+</div>
+
+
+
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <h6>Address</h6>
+          <div>Main Branch</div>
+          <div>Some street, some city London</div>
+          <br>
+          <div>India Branch</div>
+          <div>5/403, Ved Vihar, besides Ved Bhavan, Paud road, Kothrud, 411038, Pune</div>
+        </div>
+
+        <div class="col-xs-12 col-md-2">
+          <h6>Services</h6>
+          <ul class="footer-links">
+            <li><a href="#">Web Developement</a></li>
+            <li><a href="#">UI Design</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">Android Developement</a></li>
+            <li><a href="#">Server thing</a></li>
+          </ul>
+        </div>
+
+        <div id="footer-contact" class="col-xs-12 col-md-3">
+          <h6>Contact</h6>
+          <ul class="footer-links">
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">37 Wormhole road,         Shephards bush, London</a></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href = "mailto:contact@eyuga.com?subject=Customer enquiry&body=Hey, EYuga support, I had a query related to...">contact@eyuga.com</a></li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:918888083701">+918888083701</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <h6>Our Affiliations</h6>
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <img class="affi-img" src="./images/Inator_logos-02.png" alt="">
+              <div>Software Partner</div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <img class="affi-img" src="./images/Trixter.png" alt="">
+              <div>Cyber Security Partner</div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <img class="affi-img" src="./images/aespaes.png" alt="">
+              <div>AR VR Partner</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+       <a href="#">Eyuga</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <!-- <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul> -->
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+      <!-- script for changing texts -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      
+    <script src="script.js"></script>
+</body>
+</html>
