@@ -489,7 +489,7 @@ header {
   font-weight: 300;
   font-size: 43px;
   line-height: 56px;
-  margin-top: 20vh;
+  margin-bottom: -15vh;
 }
 .sub-heading{
   font-family: 'Poppins', sans-serif;
@@ -550,7 +550,8 @@ header {
   padding: 0 4%;
   padding-top: 30px;
   margin: 0 auto;
-  margin-bottom: 30vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;

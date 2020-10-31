@@ -2614,12 +2614,21 @@ a:hover {
 #services h3{font-size: 2.5rem;font-weight: 300;color: gray;}
 #services .container{
   padding-top: 10vh;
-  height: 95vh;
+  padding-bottom: 100px;
   color: rgb(58, 58, 58);
   background: gray;
-  background: linear-gradient(to right bottom,#ececec 50%, #808080ab 50%);
+  /* background: linear-gradient(to right bottom,#ececec 50%, #808080ab 50%); */
   position: relative;
   width: 100%;
+}
+
+
+
+#main-service-para .col-md-3{
+  background-color: #ececec ;
+  padding: 20px;
+  margin: 10px;
+  max-width: 23%;
 }
 
 hgroup{
@@ -2632,8 +2641,11 @@ hgroup{
 }
 #main-service{
   margin: auto;
-  font-weight: 900;
+  font-weight: 700;
+  text-align: center;
   font-size: 5rem;
+  margin-bottom: 70px;
+  color: #ececec;
 }
 #main-service-para{
   font-size: 18px;
@@ -2643,8 +2655,10 @@ hgroup{
   margin: 30px auto;
 }
 .service-points{
+  height: 110px;
   text-transform: uppercase;
-  margin: 9px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 1.5rem;
 }
 .service-img1{
@@ -2868,7 +2882,7 @@ hgroup{
   background-color: rgba(87, 150, 75, 0.8);
 }
 .flip-cards li:nth-child(5) > .panel {
-  background-color: rgba(75, 135, 150, 1);
+  background-color: rgba(87, 150, 75, 1);
 }
 
 /* sixth button color */
@@ -2893,29 +2907,8 @@ hgroup{
 .flip-cards li:nth-child(8) > .panel {
   background-color:  rgba(109, 193, 202, 1);
 }
-/* ninth button color */
-.flip-cards li:nth-child(9) > .button {
-  background-color:  rgba(21, 141, 101, 0.8);
-}
-.flip-cards li:nth-child(9) > .panel {
-  background-color:  rgb(21, 141, 101, 1);
-}
-/* tenth button color */
-.flip-cards li:nth-child(10) > .button {
-  background-color:  rgba(46, 184, 172, 0.8);
-}
-.flip-cards li:nth-child(10) > .panel {
-  background-color:  rgb(46, 184, 172, 1);
-}
-/* eleventh button color */
-.flip-cards li:nth-child(11) > .button {
-  background-color:  rgba(190, 56, 179, 0.8);
-}
-.flip-cards li:nth-child(11) > .panel {
-  background-color:  rgb(190, 56, 179, 1);
-}
 
-/* twelveth (last) button color */
+/* ninth (last) button color */
 .flip-cards li:last-child > .button {
   background-color: rgba(211, 81, 45, 0.8);
 }
@@ -3392,4 +3385,12 @@ form {
 @media only screen and (device-width: 768px) {
  /* default iPad screens */
 
+}
+
+@media (max-width: 1599px) and (min-width: 700px){
+.container {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    max-width: 140rem;
+}
 }
