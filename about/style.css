@@ -751,10 +751,10 @@
   margin: auto;
   width: 20px;
   font-size: 20px;
-  padding: 5px 15px;
+  padding: 5px 0px;
 }
 #footer-contact a{
-  padding-left: 15px;
+  padding-left: 5px;
 }
 .affi-img{
   width: 100px;

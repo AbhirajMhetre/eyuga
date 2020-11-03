@@ -2628,7 +2628,6 @@ a:hover {
   background-color: #ececec ;
   padding: 20px;
   margin: 10px;
-  max-width: 23%;
 }
 
 hgroup{
@@ -2757,7 +2756,7 @@ hgroup{
 .flip-cards li {
   float: left;
   width: 33.3%;
-  height: 210px;
+  height: 250px;
   position: relative;
   padding: 0;
 }
@@ -2766,6 +2765,14 @@ hgroup{
   cursor: pointer;
 }
 
+.flip-cards .panel .read-btn{
+  color: white;
+  border: solid white 1px;
+  font-size: 12px;
+  width: fit-content;
+  padding: 5px;
+  float: left;
+}
 .flip-cards li:hover .card-front {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -3014,7 +3021,7 @@ body #contact-form section h1 {
   color: #323b3e;
 }
 #contact-form{
-  background-image: url(https://images.pexels.com/photos/2783862/pexels-photo-2783862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  /* background-image: url(https://images.pexels.com/photos/2783862/pexels-photo-2783862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
   background-size: cover;
   padding: 50px 0px;
 }
@@ -3202,6 +3209,7 @@ form input[type="submit"]:focus {
   color:yellow;
   text-decoration:none;
 }
+
 .footer-links.inline li
 {
   display:inline-block
@@ -3309,10 +3317,10 @@ form input[type="submit"]:focus {
   margin: auto;
   width: 20px;
   font-size: 20px;
-  padding: 5px 15px;
+  padding: 5px 0px;
 }
 #footer-contact a{
-  padding-left: 15px;
+  padding-left: 5px;
 }
 .affi-img{
   width: 100px;
@@ -3327,6 +3335,10 @@ form input[type="submit"]:focus {
     margin-right:0;
     font-weight:600
   }
+}
+#ad-spacing{
+  display: inline-block;
+  width: 41px;
 }
 
 /* end of footer  */
@@ -3355,6 +3367,12 @@ form {
 .hub-info a {
   font-size: 20px;
 }
+
+.flip-cards .panel .read-btn {
+  font-size: 10px;
+  padding: 2px;
+  margin-top: 9px;
+}
 }
  
   /* different techniques for iPad screening */
@@ -3371,6 +3389,9 @@ form {
   /* styles for browsers larger than 960px; */
 .extramargin{
   margin-top: -50px;
+}
+#main-service-para .col-md-3{
+  max-width: 23%;
 }
 }
 @media only screen and (min-width: 1440px) {
