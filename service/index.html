@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | EYuga</title>
+
+        <!-- CSS and JS file -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR VERTICAL -->
+    <div id="mobile-navbar">
+      <div id="wrapper">
+        <div class="overlay"></div>
+         
+             <!-- Sidebar -->
+         <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+          <ul class="nav sidebar-nav">
+            <div class="sidebar-header">
+            <div class="sidebar-brand">
+              <a href="#"><img style="height: 50px;padding-left: 24px;float: left;" src="../images/logo.png" alt=""></a>
+            </div></div>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../clients/index.html">Clients</a></li>
+            <li><a href="../index.html#contact-form">Contact</a></li>
+           </ul>
+       </nav>
+             <!-- /#sidebar-wrapper -->
+     
+             <!-- Page Content -->
+             <div id="page-content-wrapper">
+                 <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                     <span class="hamb-top"></span>
+                     <span class="hamb-middle"></span>
+                     <span class="hamb-bottom"></span>
+                 </button>
+             </div>
+             <!-- /#page-content-wrapper -->
+     
+      </div>
+    </div>
+
+       <!-- vertical navbar end -->
+
+
+       <!-- horizontal navbar  -->
+
+  <div class="wrapper" id="desktop-navbar">
+       <nav>
+          <div class="menu-icon">
+             <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <img style="height: 70px;" src="../images/logo.png" alt="">
+          </div>
+          <div class="menu">
+             <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about/index.html">About Us</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../clients/index.html">Clients</a></li>
+                <li><a href="../index.html#contact-form">Contact</a></li>
+             </ul>
+          </div>
+       </nav>
+  </div>
+   <!-- horizontal navbar end  -->
+
+
+
+       
+
+   <div id="firebasediv"></div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+<!-- script for companies -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAZS-gxlm7YmRynJxuKaFlEFHuWFLDxLlM",
+    authDomain: "eyuga-32e95.firebaseapp.com",
+    databaseURL: "https://eyuga-32e95.firebaseio.com",
+    projectId: "eyuga-32e95",
+    storageBucket: "eyuga-32e95.appspot.com",
+    messagingSenderId: "995842596990",
+    appId: "1:995842596990:web:112d9048b9e10d7f68f82f",
+    measurementId: "G-5W1EJJBMTK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+<script src="script.js"></script>
+</body>
+</html>

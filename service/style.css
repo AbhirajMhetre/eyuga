@@ -359,7 +359,7 @@
 #desktop-navbar nav ul {
     line-height: 60px;
     list-style: none;
-    background: rgba(0, 0, 0, 0);
+    background: rgb(32, 32, 32);
     overflow: hidden;
     color: #fff;
     padding: 0;
@@ -459,133 +459,106 @@
 
 
 
-  
-  header {
-    width: 100%;
-    height: 55vh;
-  
-    /* background-image: url(https://content.thriveglobal.com/wp-content/uploads/2019/08/load-image.jpg); */
-    background-image: url(https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2090&q=80);
-    background-size: 100% 70vh;
-    background-repeat: no-repeat;
-}
+/*-------------------------------*/
+/*           eyugas services            */
+/*-------------------------------*/
 
-
-#mainheading{
-  margin-top: 20vh;
-  width: 100%;
-  font-size: 7rem;
-  position: absolute;
-  text-align: center;
-  color: rgb(42, 42, 42);
-  background-color: rgba(255, 255, 255, 0.493);
-  font-family: 'Poppins', sans-serif;
-}
-.heading{
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  color: #313131;
-  font-weight: 300;
-  font-size: 43px;
-  line-height: 56px;
-  margin-top: 10vh;
-}
-.line-break{
+.line-break {
   border: 2px solid yellow;
   width: 80px;
 }
-#aboutuspara p{
-  color: #888888;
-  font-weight: 400;
-  font-size: 18px;
-  margin: 40px auto;
+a:hover {
+  text-decoration: underline;
+}
+.hub-info a{
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px auto;
+  margin-top: 20px;
+}
+/* Hero Unit ----------------------*/
+.hero-unit {
+  text-align: left;
+  background: url(https://images.unsplash.com/photo-1543196614-e046c7d3d82e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80)
+    no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+#services h1, #services h3{
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+#services h1{font-size: 4rem;margin: 30px;}
+#services h3{font-size: 2.5rem;font-weight: 300;color: gray;}
+#services .container{
+  padding-top: 10vh;
+  padding-bottom: 100px;
+  color: rgb(58, 58, 58);
+  background: gray;
+  /* background: linear-gradient(to right bottom,#ececec 50%, #808080ab 50%); */
+  position: relative;
+  width: 100%;
 }
 
+#main-service-para .row{
+  margin: 30px;
+}
 
-/*  COMPANY LISTS external css: flickity.css */
+#main-service-para .col-md-3{
+  background-color: #ececec ;
+  padding: 20px;
+  margin: 10px;
+}
 
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  body { font-family: 'Poppins', sans-serif; text-align: center;}
-  .flickity-page-dots {
-    display: none;
-  }
-  
-  .gallery {
-    background: #EEE;
-  }
-  
-  .gallery-cell {
-    width: 10%;
-    height: 150px;
-    margin-right: 0px;
-    background: white;
-    background-size: 80% 90%;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
-  }
-  #company1{
-    background-image: url(https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Microsoft-Logo-2012.jpg);
-  }
-  #company2{
-      background-image: url(https://openthread.google.cn/images/ot-contrib-google.png);
-  }
-  #company3{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg);
+hgroup{
+  background:white;
+  color: rgb(48, 48, 48);
 }
-#company4{
-    background-image: url(https://mma.prnewswire.com/media/949195/Rakuten_Logo.jpg?p=facebook);
+.line-break {
+  border: 2px solid yellow;
+  width: 80px;
 }
-#company5{
-    background-image: url(https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg);
-}
-#company6{
-  background-image: url(https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg);
-}
-#company7{
-  background-image: url(https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Microsoft-Logo-2012.jpg);
-}
-#company8{
-  background-image: url(https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg);
-}
-#company9{
-  background-image: url(https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Microsoft-Logo-2012.jpg);
-}
-#company10{
-  background-image: url(https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg);
-}
-#company11{
-  background-image: url(https://1000logos.net/wp-content/uploads/2019/07/Amazon-logo-2000%E2%80%93present.jpg);
-}
-  
-  /* cell number */
-  .gallery-cell:before {
-    display: block;
-    text-align: center;
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-  }
-
-
-  /* TESTIMONIALS */
-  /* Testimonial CSS Code Start */
-/* background */
-.testimonial-text{
-  margin: 60px 20%;
-  height: fit-content;
-}
-.testimonial-name{
+#main-service{
+  margin: auto;
   font-weight: 700;
-  margin: 50px auto;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 100px;
+  color: #3a3a3a;
 }
-  /* Textimonial CSS Code End */
+#main-service-para{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+#main-service-para p{
+  margin: 30px auto;
+}
+.service-points{
+  height: 110px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.service-img1{
+  margin: 20px;
+  z-index: 2;
+  width: 70px;
+}
+#services .hero-unit h1 {
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
+}
+#services hgroup {
+  padding: 3rem 0;
 
+}
 
 
 
@@ -772,16 +745,28 @@
   }
 }
 
+
 /* end of footer  */
 
 
 @media only screen and (max-device-width: 480px) {
+  #main-service {
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  #main-service-para .row{
+    margin: 8px;
+  }
+  .service-points {
+    font-size: 20px;
+    height: auto;
+  }
 #wrapper { 
   height: 0px;
 }
 header {height: 35vh;}
 #mainheading {
-  margin-top: 14vh;
+  margin-top: 24vh;
   font-size: 3rem;
 }
 
@@ -800,10 +785,13 @@ header {height: 35vh;}
 
 }
 
-@media (max-width: 1599px) and (min-width: 700px){
-.container {
-    padding-right: 3.5rem;
+@media only screen and (min-device-width: 500px){
+  #main-service-para .col-md-3{
+    max-width: 23.5%;
+  }
+  .container-fluid{
     padding-left: 3.5rem;
-    max-width: 140rem;
+    padding-right: 3.5rem;
+  }
 }
-}
+
