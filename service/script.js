@@ -105,7 +105,7 @@ ref.on("value", function(snapshot) {
                                                 '</div>'+
                                         
                                                 '<div class="col-xs-12 col-md-4">'+
-                                                  '<h6>Our Partners</h6>'+
+                                                  '<h6 style="margin-left: 10px;">Our Partners</h6>'+
                                                   '<div class="row">'+
                                                     '<div class="col-xs-12 col-md-4">'+
                                                       '<img class="affi-img" src="../images/Inator_logos-02.png" alt="">'+
