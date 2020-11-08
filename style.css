@@ -2622,6 +2622,13 @@ a:hover {
   width: 100%;
 }
 
+.hun-info-para{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
 
 
 #main-service-para .col-md-3{
