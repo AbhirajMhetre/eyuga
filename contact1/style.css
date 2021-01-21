@@ -1,0 +1,428 @@
+body {
+    background: #efefef;
+    font-size: 62.5%;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #b6b6b6;
+    margin: 0px;
+  }
+  body section {
+    background: #ffffffa3;
+    margin: 60px auto 120px;
+    border-top: 15px solid #313a3d;
+    text-align: center;
+    padding: 50px 0 110px;
+    width: 80%;
+    max-width: 1100px;
+  }
+  body section h1 {
+    margin: 20px auto;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #323b3e;
+  }
+  #form-subtitle{
+    font-size: 1.3rem;
+    color: #323b3e;
+  }
+  #contact-form{
+    background-image: url(https://images.pexels.com/photos/2783862/pexels-photo-2783862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    padding: 50px 0px;
+  }
+  
+  form {
+    width: 58.3333333333%;
+    margin: 30px auto;
+  }
+  form .field {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  form .field label {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #313a3d;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 1.45em;
+    letter-spacing: 0.075em;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form .field label + span {
+    font-family: "SSStandard";
+    opacity: 0;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 7%;
+    font-size: 2.5em;
+    text-shadow: 1px 2px 0 #cd6302;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form .field input[type="text"],
+  form .field textarea {
+    border: none;
+    background: #e8e9ea;
+    width: 100%;
+    margin: 0;
+    padding: 18px 0;
+    padding-left: 19.5%;
+    color: #313a3d;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  form .field input[type="text"]#msg,
+  form .field textarea#msg {
+    height: 57px;
+    resize: none;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form .field input[type="text"]:focus, form .field input[type="text"].focused,
+  form .field textarea:focus,
+  form .field textarea.focused {
+    outline: none;
+  }
+  form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+  form .field textarea:focus#msg,
+  form .field textarea.focused#msg {
+    padding-bottom: 150px;
+  }
+  form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+  form .field textarea:focus + label,
+  form .field textarea.focused + label {
+    width: 18%;
+    background: #fd9638;
+    color: #313a3d;
+  }
+  form .field input[type="text"].focused + label,
+  form .field textarea.focused + label {
+    color: #fd9638;
+  }
+  form .field:hover label {
+    width: 18%;
+    background: #313a3d;
+    color: white;
+  }
+  form input[type="submit"] {
+    background: #fd9638;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 13px 50px;
+    margin-top: 50px;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form input[type="submit"]:hover {
+    background: #313a3d;
+    color: #fd9638;
+  }
+  form input[type="submit"]:focus {
+    outline: none;
+    background: #cd6302;
+  }
+  
+
+
+  /* navbar */
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background: url(./wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+  background: #000000ba;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+
+
+/* Footer section css */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+#footer-contact i{
+  font-size: 20px;
+  padding: 5px;
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
